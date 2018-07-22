@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find fetch_moveit_config)/launch/demo.launch"/>
+
+  <node name="move_group_interface_tutorial" pkg="fetch_moveit" type="move_group_interface_tutorial" respawn="false" output="screen">
+  </node>
+
+</launch>
